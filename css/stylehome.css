@@ -1,0 +1,63 @@
+*{
+  font-family: monospace;
+  color: #04030F;
+}
+body{
+  background: #BBBAC6;
+}
+div.navigator img{
+  position: relative;
+  border: 5px solid #A4508B;
+  width: 100px;
+  left: 40px;
+}
+div.navigator h2{
+  margin-left: 10px;
+}
+div.navigator ul{
+  font-size: 20px;
+  border: 8px solid #035E7B;
+  padding: 0px 200px;
+  float: right;
+}
+div.navigator span{
+  font-size: 20px;
+  padding: 0px 567px 0px 0px;
+  float: right;
+  clear: right;
+}
+a:link, a:visited{
+  text-decoration: none; 
+  color:#A4508B;
+}
+a:hover{
+  text-decoration: underline;
+}
+div.header{
+  background-image: url('../images/cyberbullying background.jpg');
+  background-repeat: no-repeat;
+  box-shadow: inset 0 0 0 1000px rgba(164, 80, 139, 75%);
+  background-size: 100% 100%;
+  background-color: #A4508B;
+  border: 10px solid #2C1320;
+  height: 400px;
+}
+div.header h1{
+  position: relative;
+  font-size: 65px;
+  color: #BBBAC6;
+  text-shadow: 4px 4px #035E7B;
+  text-align: center;
+  top: 60%;
+}
+div.introduction h1{
+  font-size: 40px;
+  text-shadow: 2px 2px #A4508B;
+  border-bottom: 8px solid #035E7B;
+  padding-bottom: 20px;
+}
+div.introduction p{
+  font-family: arial;
+  font-size: 25px;
+  width: 75%;
+}
