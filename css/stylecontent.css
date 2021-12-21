@@ -5,78 +5,96 @@
 body{
   background: #BBBAC6;
 }
-div.navigator{
+nav{
   border-bottom: 5px solid #04030F;
 }
-div.navigator img{
+nav img{
   position: relative;
   border: 5px solid #A4508B;
   width: 100px;
   left: 40px;
 }
-div.navigator h2{
+nav h2{
   margin-left: 10px;
 }
-div.navigator ul{
+nav ul{
   font-size: 20px;
   border: 8px solid #035E7B;
   padding: 0px 200px;
   float: right;
 }
-div.navigator span{
+nav span{
   font-size: 20px;
   padding: 0px 567px 0px 0px;
   float: right;
   clear: right;
 }
-a:link, a:visited{
-  text-decoration: none; 
+a{
+  text-decoration: none;
   color:#A4508B;
 }
 a:hover{
   text-decoration: underline;
 }
-div.info1{
-  margin: 0px 25%; 
+a:active{
+  color:#04030F;
+}
+section.info1{
+  margin: 10px 22%;
   width: 50%;
 }
-div.info2{
-  margin: 80px 25%;
+section.info2{
+  margin: 80px 22%;
   text-align: right;
   width: 50%;
 }
-div.info1 h1{
+section.info1 header{
   text-shadow: 2px 2px #A4508B;
+  text-decoration: bold;
   font-size: 60px;
   width: 1000px;
   text-align: left;
 }
-div.info2 h1{
+section.info2 header{
   text-shadow: 2px 2px #035E7B;
+  text-decoration: bold;
   font-size: 60px;
-  width: 1000px;
+  width: 900px;
 }
-div.info1 img{
+section.info1 img{
   width: 150px;
   float: right;
 }
-div.info2 img{
+section.info2 img{
   width: 200px;
   float: left;
 }
-div.info1 p, div.info2 p{
+section.info1 p, section.info2 p{
   font-family: arial;
   font-size: 30px;
   text-align: justify;
   text-justify: inter-word;
 }
-div.references{
+section.video{
+  text-align: center;
+}
+section.video header{
+  text-shadow: 2px 2px #A4508B;
+  text-decoration: bold;
+  font-size: 60px;
+}
+video{
+  border: 3px solid #04030F;
+  box-shadow: 3px 3px #035E7B;
+  margin-bottom: 10px;
+}
+footer{
   border: 8px dotted #035E7B;
 }
-div.references h1{
+footer h1{
   padding-left: 10px;
 }
-div.references li{
+footer li{
   font-family: arial;
   font-size: 20px;
 }
