@@ -3,7 +3,7 @@
   color: #04030F;
 }
 body{
-  background: #BBBAC6;
+  background: #C5C3DA;
 }
 nav{
   border-bottom: 5px solid #04030F;
@@ -87,6 +87,36 @@ video{
   border: 3px solid #04030F;
   box-shadow: 3px 3px #035E7B;
   margin-bottom: 10px;
+}
+.facebook{
+  display: inline-block;
+  height: 75px;
+  width: 75px;
+  margin-left: 25%;
+  background: url('../images/facebook_color.png') no-repeat;
+}
+.facebook:hover {
+  background: url('../images/facebook_gray.png') no-repeat;
+}
+.twitter{
+  display: inline-block;
+  height: 75px;
+  width: 75px;
+  margin-left: 25%;
+  background: url('../images/twitter_color.png') no-repeat;
+}
+.twitter:hover {
+  background: url('../images/twitter_gray.png') no-repeat;
+}
+.gmail{
+  display: inline-block;
+  height: 75px;
+  width: 75px;
+  margin-left: 25%;
+  background: url('../images/gmail_color.png') no-repeat;
+}
+.gmail:hover {
+  background: url('../images/gmail_gray.png') no-repeat;
 }
 footer{
   border: 8px dotted #035E7B;

@@ -3,7 +3,10 @@
   color: #04030F;
 }
 body{
-  background: #BBBAC6;
+  background: #C5C3DA;
+}
+nav{
+  border-bottom: 5px solid #04030F;
 }
 nav img{
   position: relative;
@@ -36,33 +39,41 @@ a:hover{
 a:active{
   color:#04030F;
 }
-header{
-  background-image: url('../images/cyberbullying background.jpg');
-  background-repeat: no-repeat;
-  box-shadow: inset 0 0 0 1000px rgba(164, 80, 139, 75%);
-  background-size: 100% 100%;
-  background-color: #A4508B;
-  border: 10px solid #2C1320;
-  height: 400px;
-}
-header h1{
-  position: relative;
-  font-size: 65px;
-  color: #BBBAC6;
-  text-shadow: 4px 4px #035E7B;
+section.intro{
+  width: 100%;
   text-align: center;
-  top: 60%;
 }
-section h1{
-  font-size: 40px;
+section.intro header{
   text-shadow: 2px 2px #A4508B;
-  border-bottom: 8px solid #035E7B;
-  padding-bottom: 20px;
+  text-decoration: bold;
+  font-size: 60px;
 }
-section p{
+section.intro p{
   font-family: arial;
-  font-size: 25px;
-  width: 75%;
+  font-size: 30px;
+}
+.category{
+  background: #BBBAC6;
+  border: 5px solid #035E7B;
+  box-shadow: 2px 2px #A4508B;
+  width: 18%;
+  font-size: 50px;
+  text-align: center;
+  line-height: 80px;
+  float: left;
+  overflow: auto;
+}
+.specifics{
+  background: #BBBAC6;
+  border: 5px solid #035E7B;
+  box-shadow: 2px 2px #A4508B;
+  width: 78%;
+  font-size: 20px;
+  float: right;
+}
+.specifics p{
+  margin-left: 20px;
+  margin-right: 20px;
 }
 .facebook{
   display: inline-block;
@@ -95,9 +106,13 @@ section p{
   background: url('../images/gmail_gray.png') no-repeat;
 }
 footer{
-  margin-top: 10%;
+  margin-top: 40%;
   border: 8px dotted rgb(150, 149, 158);
 }
 footer h1{
   padding-left: 10px;
+}
+footer li{
+  font-family: arial;
+  font-size: 20px;
 }
